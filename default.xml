@@ -11,8 +11,8 @@
     <!-- group - We can declare a set of projects as members of a group, then sync only them.           Omitting this attribute makes the project a member of the default group. -->
     <project path="bindeps" name="bindependencies" remote="github-repos" revision="master"/>
     
-    <project path="bindeps" name="thirdparties" remote="github-repos" revision="master"/>
+    <project path="thirdparties" name="thirdparties" remote="github-repos" revision="master"/>
     
-    <project path="bindeps" name="codebase" remote="github-repos" revision="master"/>
+    <project path="codebase" name="codebase" remote="github-repos" revision="master"/>
     
 </manifest>
