@@ -1,0 +1,13 @@
+﻿<manifest>
+    <!-- define GIT accounts unerwhich we will have repositories (projects) -->
+    <!-- they can be scattered across the WEB under different services -->
+    <remote  name="github-repos" fetch="https://github.com/cod3r43v3r/"/>
+      
+    <!-- each project is a repository -->
+    <!-- path - Where repository will be checked out into, relative to current working dir -->
+    <!-- name - The name of the project on our git server -->
+    <!-- remote - The name of the remote server where the repository can be found -->
+    <!-- revision - The branch/tag name we want to checkout -->
+    <project path="bindeps" name="bindependencies" remote="github-repos" revision="master"/>
+    
+</manifest>
