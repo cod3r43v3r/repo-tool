@@ -12,7 +12,7 @@
     <!-- name - The name of the project on our git server -->
     <!-- remote - The name of the remote server where the repository can be found -->
     <!-- revision - The branch/tag name we want to checkout -->
-    <!-- group - We can declare a set of projects as members of a group, then sync only them.           Omitting this attribute makes the project a member of the default group. -->
+    <!-- group - We can declare a set of projects as members of a group, then sync only them. Omitting this attribute makes the project a member of the default group. -->
     <project path="bindeps" name="bindependencies" />
     
     <project path="thirdparties" name="thirdparties" />
