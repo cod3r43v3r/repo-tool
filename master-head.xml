@@ -1,0 +1,12 @@
+﻿<manifest>
+    <remote  name="github-repos" fetch="https://github.com/cod3r43v3r/"/>
+    
+    <default revision="refs/heads/master" remote="github-repos" sync-j="4" />
+           
+    <project path="bindeps" name="bindependencies" />
+    
+    <project path="thirdparties" name="thirdparties" />
+    
+    <project path="codebase" name="codebase" />
+    
+</manifest>
