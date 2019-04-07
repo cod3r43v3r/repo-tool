@@ -5,7 +5,7 @@
     
     <!-- this will not create a local branch, it will just checkout from a remote branch, giving a read only version (a detached head) that can be used for building, for changes one must create a local branch -->
     <!-- revision can point to Tags, SHA1 and branch names -->
-    <default revision="master" remote="github-repos" sync-j="4" />
+    <default revision="refs/heads/master" remote="github-repos" sync-j="4" />
            
     <!-- each project is a repository -->
     <!-- path - Where repository will be checked out into, relative to current working dir -->
