@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/cod3r43v3r/" name="github-repos"/>
+  
+  <default remote="github-repos" revision="refs/heads/master" sync-j="4"/>
+  
+  <project name="bindependencies" path="bindeps" revision="17c9c4be0e17401f5da6b739c1c7e5298ee63099" upstream="refs/heads/master"/>
+  <project name="codebase" revision="65b070f596204fac62f3c4a0d6bb5bb3a202ce31" upstream="refs/heads/master"/>
+  <project name="thirdparties" revision="f0790cf8e9daeb874942da0b27efcaf6d83b9e4e" upstream="refs/heads/master"/>
+</manifest>
